@@ -32,14 +32,13 @@ body::before {
   body::before {
     content: 'MD';
   }
-}
+}s
 
 @media (min-width: 992px) {
   body::before {
     content: 'LG';
   }
 }
-
 @media (min-width: 1200px) {
   body::before {
     content: 'XL';
